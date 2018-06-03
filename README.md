@@ -4,6 +4,7 @@
 数据集使用人脸检测数据集widerface 地址为http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/
 001_download_data.py用于下载数据到data文件夹下
 下载后依次运行002_data-to-pascal-xml.py,003_xml-to-csv.py,004_generate_tfrecord.py可生成tensorflow object_detection API训练需要的tfrecord文件
+已处理好的tfrecord文件已放至百度云https://pan.baidu.com/s/1K-NURSjNHM2QRRVJt705YA
 # 模型
 预训练模型为ssd_inception_v2_coco,官方地址为https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
 # 训练
